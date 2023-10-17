@@ -1,0 +1,340 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    background-color: #3498db; /* Cool blue background for navbar */
+    width: 100%;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    font-size: 24px;
+    transition: 1s;
+    color: aqua;
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* HOMEPAGE */
+
+.welcome {
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+    /* LEFTSIDE */
+
+.rishi_about {
+    width: 20rem;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.rishi_about .about_text {
+    font-size: 16px;
+    color: #333;
+}
+
+.rishi_profile {
+    width: 120px;
+    border-radius: 50%;
+}
+
+    /* RIGHTSIDE */
+
+.home_about {
+    width: 60rem;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.scout_images{
+    display: flex;
+    width: 60rem;
+    justify-content: space-between;
+}
+
+.scoutimg1 {
+    width: 10rem;
+    height:15rem;
+}
+
+.scoutimg2 {
+    width: 20rem;
+    height: 15rem;
+}
+
+/* EDUCATION */
+
+.education_page {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 3rem;
+    border: 1px solid #007bff; /* Border color */
+    background-color: #ffffff; /* Background color */
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.1); /* Box shadow for a subtle lift */
+}
+
+.year {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #007bff;
+}
+
+.year h1 {
+    font-size: 24px;
+    color: #007bff; /* Heading color */
+}
+
+.year h2 {
+    font-size: 18px;
+    color: #007bff; /* Subheading color */
+}
+
+    /* LEFTSIDE */
+
+.ed_left {
+    width: 25%;
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 1.5rem; /* Padding for content inside the container */
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.ed_left h1 {
+    font-size: 36px;
+    color: #212529; /* Heading color for left side */
+}
+
+.ed_left h1:hover{
+    font-size: 50px;
+
+}
+
+.ed_left h2 {
+    font-size: 24px;
+    color: #212529; /* Subheading color for left side */
+}
+
+    /* RIGHTSIDE */
+
+.ed_right {
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    padding: 1rem;
+}
+
+.ed_right li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.ed_right h3 {
+    border-bottom: 2px solid #007bff; /* Border color for headings in the right side */
+    color: #007bff; /* Heading color for the right side */
+}
+
+/* PROJECTS */
+
+.project-row {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.project-tile {
+    width: 30%;
+    margin-bottom: 2rem;
+    background-color: #f8f9fa; /* Light gray background */
+    /* border: 1px solid #007bff; Blue border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+.project-title {
+    background-color: #3498db; /* Blue background */
+    color: #ffffff;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    height: 2.5rem;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.project-img img{
+    /* width: 12rem; */
+    height: 12rem;
+    max-width: 24rem;
+}
+
+.project-body {
+    padding: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.project-link {
+    background-color: #708c98; /* Darker blue background */
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-link a:hover {
+    text-decoration: underline;
+}
+
+    /* AWARD TILE */
+
+.project-title-w {
+    background-color: goldenrod; /* Blue background */
+    color: #ffffff;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    height: 2.5rem;
+}
+
+/* HONORS PAGE */
+
+.year-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Added transition effect */
+}
+
+.year-box:hover {
+    transform: scale(1.05); /* Grow slightly on hover */
+}
+
+.year-box h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.year-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.year-box ul li {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* CONTACT PAGE */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.contact-item i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #007bff;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
